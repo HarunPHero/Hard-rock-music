@@ -33,7 +33,7 @@ const displaysongs = (songs) => {
                 <h3 class="lyrics-name">${song.title}</h3>
                 <p class="author lead">Album by <span>${song.artist.name}</span></p>
                 <a class="btn btn-success" href="${song.preview}">Listen the song</a>
-                <a href="${song.preview}" download>Lsten the song</a>
+                
 
         </div>
         <div class="col-md-3 text-md-right text-center">
